@@ -1,2 +1,2 @@
-# -yandex-cloud-image-registry-
-Build and publish Docker images to Yandex Cloud Image Registry ☁️🐳🪆
+# yandex-cloud-instace-group
+Create and deploy Instance Groups to Yandex Cloud Compute ☁️🐳🪆
