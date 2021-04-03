@@ -7,13 +7,13 @@
   "author": "Srdjan S <stankovic.srdjo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "package": "tsc src/index.ts --outDir ./dist",
+    "package": "ncc build src/index.ts -o dist --source-map --license LICENSE",
     "lint": "tslint src/index.ts",
     "test": "jest"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "dockerode": "^3.2.1"
+    "@vercel/ncc": "^0.27.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
