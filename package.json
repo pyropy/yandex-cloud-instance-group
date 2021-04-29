@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@vercel/ncc": "^0.27.0"
+    "@vercel/ncc": "^0.28.4"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
